@@ -1,0 +1,18 @@
+package contaBancaria;
+
+public class ContaBanco {
+	int numeroConta;
+	String numeroAgencia;
+	String nomeCliente;
+	String sobrenomeCliente;
+	int saldoBanco;
+	String numeroContaString;
+
+	void depositarSaldo(int valorDeposito) {
+		saldoBanco = saldoBanco + valorDeposito;
+	}
+
+	void sacarSaldo(int valorSaque) {
+		saldoBanco = saldoBanco - valorSaque;
+	}
+}
